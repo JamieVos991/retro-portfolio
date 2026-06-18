@@ -1,0 +1,89 @@
+/* ════════════════════════════════════════════════════════════
+   Styleguide — Win95 design tokens & foundational styles
+   Herbruikbaar, project-agnostisch
+   ════════════════════════════════════════════════════════════ */
+
+/* ── Design tokens ───────────────────────────────────────── */
+
+:root {
+  /* Kleurenpalet */
+  --color-teal:   #008080;
+  --color-blue:   #000080;
+  --color-panel:  #c0c0c0;
+  --color-light:  #ffffff;
+  --color-shadow: #404040;
+  --color-ink:    #111111;
+  --color-hot:    #ff00aa;
+  --color-acid:   #ccff00;
+
+  /* Verkorte aliassen voor intern gebruik */
+  --teal:   var(--color-teal);
+  --blue:   var(--color-blue);
+  --panel:  var(--color-panel);
+  --light:  var(--color-light);
+  --shadow: var(--color-shadow);
+  --ink:    var(--color-ink);
+  --hot:    var(--color-hot);
+  --acid:   var(--color-acid);
+
+  /* Typografie */
+  --font-ui: "MS Sans Serif", "Tahoma", "Verdana", sans-serif;
+
+  /* Win95 border tokens */
+  --border-raised-t: 2px solid var(--light);
+  --border-raised-l: 2px solid var(--light);
+  --border-raised-r: 2px solid var(--shadow);
+  --border-raised-b: 2px solid var(--shadow);
+
+  --border-inset-t: 2px solid #808080;
+  --border-inset-l: 2px solid #808080;
+  --border-inset-r: 2px solid var(--light);
+  --border-inset-b: 2px solid var(--light);
+}
+
+/* ── Layer-volgorde (eenmalig hier declareren) ───────────── */
+
+@layer reset, base, layout, components, utilities;
+
+/* ── Reset ───────────────────────────────────────────────── */
+
+@layer reset {
+  * {
+    box-sizing: border-box;
+  }
+}
+
+/* ── Base ────────────────────────────────────────────────── */
+
+@layer base {
+  html,
+  body {
+    min-height: 100%;
+  }
+
+  body {
+    margin: 0;
+    color: var(--ink);
+    font-family: var(--font-ui);
+    overflow: hidden;
+  }
+
+  button,
+  a {
+    font: inherit;
+  }
+
+  /*
+    Win95 verhoogde knop — standaard voor alle <button>s.
+    Specifieke knoppen overschrijven dit in components/utilities.
+  */
+  button {
+    cursor: pointer;
+    color: var(--ink);
+    background: var(--panel);
+    border-top:    var(--border-raised-t);
+    border-left:   var(--border-raised-l);
+    border-right:  var(--border-raised-r);
+    border-bottom: var(--border-raised-b);
+  }
+}

@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jamie.exe Portfolio</title>
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="shell" aria-label="Retro portfolio met versleepbare desktops">
+      <section class="crt" aria-hidden="true"></section>
+
+      <nav class="icon-shelf" aria-label="Bureaublad iconen">
+        <button class="desktop-icon" type="button" data-window="about">
+          <span class="icon-art computer"></span>
+          <span>Over.txt</span>
+        </button>
+        <button class="desktop-icon" type="button" data-window="projects">
+          <span class="icon-art folder"></span>
+          <span>Projecten</span>
+        </button>
+        <button class="desktop-icon" type="button" data-window="resume">
+          <span class="icon-art paper"></span>
+          <span>CV.doc</span>
+        </button>
+        <button class="desktop-icon" type="button" data-window="photo">
+          <span class="icon-art photo"></span>
+          <span>Foto.avif</span>
+        </button>
+        <button class="desktop-icon" type="button" data-window="skills-overview">
+          <span class="icon-art badge"></span>
+          <span>Skills.txt</span>
+        </button>
+        <button class="desktop-icon" type="button" data-window="frontend">
+          <span class="icon-art code"></span>
+          <span>Front-end.exe</span>
+        </button>
+        <button class="desktop-icon" type="button" data-window="tools">
+          <span class="icon-art paint"></span>
+          <span>Gereedschap.exe</span>
+        </button>
+        <button class="desktop-icon" type="button" data-window="process">
+          <span class="icon-art disk"></span>
+          <span>Proces</span>
+        </button>
+        <button class="desktop-icon" type="button" data-window="mail">
+          <span class="icon-art envelope"></span>
+          <span>E-mail.url</span>
+        </button>
+        <button class="desktop-icon" type="button" data-window="links">
+          <span class="icon-art globe"></span>
+          <span>Links</span>
+        </button>
+      </nav>
+
+      <div class="desktop">
+        <article
+          class="window open"
+          data-window-id="welcome"
+          style="left: 310px; top: 60px; width: 520px"
+        >
+          <header class="titlebar">
+            <span>Welkom - Jamie.exe</span>
+            <button type="button" class="close-button" aria-label="Venster sluiten">x</button>
+          </header>
+          <section class="window-body welcome-body">
+            <p class="status-line">C:\PORTFOLIO\WELKOM.EXE</p>
+            <h1>Front-end ontwikkelaar &amp; media designer</h1>
+            <p>
+              Ik bouw interfaces met karakter, duidelijke interacties en kleine
+              momenten waardoor software met zorg gemaakt voelt.
+            </p>
+            <ul class="stats-grid">
+              <li><strong>09</strong> gelanceerde projecten</li>
+              <li><strong>14</strong> prototypes</li>
+              <li><strong>Veel</strong> nieuwsgierigheid</li>
+            </ul>
+          </section>
+        </article>
+
+        <article
+          class="window open"
+          data-window-id="lab-note"
+          style="left: 370px; top: 110px; width: 500px"
+        >
+          <header class="titlebar">
+            <span>Ontwerp Lab</span>
+            <button type="button" class="close-button" aria-label="Venster sluiten">x</button>
+          </header>
+          <div class="window-body lab-body">
+            <h1>Ruwe ideeen bruikbaar maken</h1>
+            <p>
+              Ik schets snel, prototypeer de spannendste interacties vroeg en
+              maak bruikbare patronen onderdeel van het designsysteem voordat
+              het project zwaar wordt.
+            </p>
+          </div>
+        </article>
+
+        <article
+          class="window open"
+          data-window-id="dialup"
+          style="left: 430px; top: 160px; width: 475px"
+        >
+          <header class="titlebar">
+            <span>Inbelverbinding</span>
+            <button type="button" class="close-button" aria-label="Venster sluiten">x</button>
+          </header>
+          <div class="window-body dialup-body">
+            <div class="modem-lights" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </div>
+            <h1>Laten we iets nuttigs bouwen.</h1>
+            <p>Beschikbaar!</p>
+          </div>
+        </article>
+
+        <article
+          class="window"
+          data-window-id="about"
+          style="left: 360px; top: 130px; width: 430px"
+        >
+          <header class="titlebar">
+            <span>Over.txt</span>
+            <button type="button" class="close-button" aria-label="Venster sluiten">x</button>
+          </header>
+          <section class="window-body">
+            <p>
+              Hallo, ik ben Jamie. Ik hou van snelle interfaces, duidelijke
+              interacties en werk dat de mens aan de andere kant van het scherm
+              serieus neemt.
+            </p>
+            <p>
+              Deze desktop is versleepbaar. Verplaats de vensters en snuffel
+              door de mappen.
+            </p>
+          </section>
+        </article>
+
+        <article
+          class="window"
+          data-window-id="photo"
+          style="left: 820px; top: 130px; width: 380px"
+        >
+          <header class="titlebar">
+            <span>Foto.avif</span>
+            <button type="button" class="close-button" aria-label="Venster sluiten">x</button>
+          </header>
+          <figure class="window-body photo-body">
+            <img class="photo-preview" src="fotos/IMG_0003.avif" alt="Foto van Jamie op een terras" />
+          </figure>
+        </article>
+
+        <article
+          class="window"
+          data-window-id="projects"
+          style="left: 360px; top: 100px; width: 600px"
+        >
+          <header class="titlebar">
+            <span>Projecten</span>
+            <button type="button" class="close-button" aria-label="Venster sluiten">x</button>
+          </header>
+          <section class="window-body">
+            <section class="project-list" aria-label="Projecten">
+              <article>
+                <h2>Atlas CRM</h2>
+                <p>
+                  Accounttriage versneld met compacte dashboards, duidelijkere
+                  statussen en toetsenbordgerichte flows.
+                </p>
+              </article>
+              <article>
+                <h2>Studio Board</h2>
+                <p>
+                  Een collaboratieve moodboardtool met sleephandles, stapels
+                  bestanden en commentaren die rustig blijven.
+                </p>
+              </article>
+              <article>
+                <h2>Pulse Ops</h2>
+                <p>
+                  Realtime incidentruimte voor operationele teams, gebouwd rond
+                  tijdlijnen, eigenaarschap en kalme escalatie.
+                </p>
+              </article>
+            </section>
+          </section>
+        </article>
+
+        <article
+          class="window"
+          data-window-id="resume"
+          style="left: 820px; top: 60px; width: 455px"
+        >
+          <header class="titlebar">
+            <span>CV.doc</span>
+            <button type="button" class="close-button" aria-label="Venster sluiten">x</button>
+          </header>
+          <section class="window-body">
+            <ul class="resume-list">
+              <li><strong>Opleiding:</strong> Mediacollege Amsterdam - Software Development.</li>
+              <li><strong>Opleiding:</strong> HvA - Front-end Development &amp; Design.</li>
+              <li><strong>Minor:</strong> Communication &amp; Multimedia Design.</li>
+              <li><strong>Ervaring:</strong> twee stages gelopen bij Minty Media Haarlem en CYSO Alkmaar.</li>
+            </ul>
+          </section>
+        </article>
+
+        <article
+          class="window"
+          data-window-id="skills-overview"
+          style="left: 360px; top: 390px; width: 560px"
+        >
+          <header class="titlebar">
+            <span>Skills.txt</span>
+            <button type="button" class="close-button" aria-label="Venster sluiten">x</button>
+          </header>
+          <section class="window-body skills-body">
+            <section class="skills-snap" aria-label="Scroll door de belangrijkste skills">
+              <article class="skill-panel">
+                <span class="skill-number">01</span>
+                <h2>Ontwerp</h2>
+                <p>UX flows, wireframes, prototypes en visuele uitwerking.</p>
+              </article>
+              <article class="skill-panel">
+                <span class="skill-number">02</span>
+                <h2>Toegankelijkheid</h2>
+                <p>Interfaces ontwerpen die duidelijk, bruikbaar en inclusief zijn.</p>
+              </article>
+              <article class="skill-panel">
+                <span class="skill-number">03</span>
+                <h2>Onderzoek</h2>
+                <p>Problemen scherp krijgen, aannames testen en keuzes uitleggen.</p>
+              </article>
+              <article class="skill-panel">
+                <span class="skill-number">04</span>
+                <h2>Samenwerking</h2>
+                <p>Rustige overdracht, documentatie en bruggen naar development.</p>
+              </article>
+            </section>
+          </section>
+        </article>
+
+        <article
+          class="window"
+          data-window-id="frontend"
+          style="left: 820px; top: 390px; width: 430px"
+        >
+          <header class="titlebar">
+            <span>Front-end.exe</span>
+            <button type="button" class="close-button" aria-label="Venster sluiten">x</button>
+          </header>
+          <section class="window-body">
+            <ul class="resume-list">
+              <li>Semantische HTML met duidelijke structuur en betekenis.</li>
+              <li>Herbruikbare en moderne CSS voor flexibele layouts.</li>
+              <li>JavaScript voor kleine, duidelijke interacties.</li>
+              <li>React-componenten met aandacht voor states en hergebruik.</li>
+            </ul>
+          </section>
+        </article>
+
+        <article
+          class="window"
+          data-window-id="tools"
+          style="left: 360px; top: 390px; width: 405px"
+        >
+          <header class="titlebar">
+            <span>Gereedschap.exe</span>
+            <button type="button" class="close-button" aria-label="Venster sluiten">x</button>
+          </header>
+          <div class="window-body chip-panel">
+            <button class="tool-chip active" type="button" aria-pressed="true"
+              data-description="Figma gebruik ik om schermen, prototypes en ontwerpkeuzes snel samen te brengen.">
+              <span>Figma</span>
+            </button>
+            <button class="tool-chip" type="button" aria-pressed="false"
+              data-description="Een sitemap maakt zichtbaar welke pagina's of onderdelen er zijn en hoe ze met elkaar verbonden zijn.">
+              <span>Sitemap</span>
+            </button>
+            <button class="tool-chip" type="button" aria-pressed="false"
+              data-description="UX richt zich op de gebruikerservaring; UI op de visuele uitvoering daarvan.">
+              <span>UX en UI</span>
+            </button>
+            <button class="tool-chip" type="button" aria-pressed="false"
+              data-description="Wireframes en wireflows tonen de structuur en de route door een interface voordat alles visueel wordt uitgewerkt.">
+              <span>Wireframe en wireflow</span>
+            </button>
+            <button class="tool-chip" type="button" aria-pressed="false"
+              data-description="Visuele hiërarchie helpt bepalen wat iemand eerst ziet, wat daarna komt en welke acties het meest belangrijk zijn.">
+              <span>Visuele Hiërarchie</span>
+            </button>
+            <button class="tool-chip" type="button" aria-pressed="false"
+              data-description="Prototyping maakt een idee klikbaar, zodat interacties vroeg getest en aangescherpt kunnen worden.">
+              <span>Prototyping</span>
+            </button>
+            <button class="tool-chip" type="button" aria-pressed="false"
+              data-description="Breakdown schetsen knippen een groot probleem op in kleinere schermen, states en beslissingen.">
+              <span>Breakdown schetsen</span>
+            </button>
+            <button class="tool-chip" type="button" aria-pressed="false"
+              data-description="Divergeren opent meerdere richtingen; convergeren kiest daarna bewust wat het best past.">
+              <span>Divergeren en Convergeren</span>
+            </button>
+            <button class="tool-chip" type="button" aria-pressed="false"
+              data-description="Typografie en leesbaarheid zorgen dat tekst rustig scant, goed contrasteert en bij de inhoud past.">
+              <span>Typografie en leesbaarheid</span>
+            </button>
+            <button class="tool-chip" type="button" aria-pressed="false"
+              data-description="Gestalt principes helpen om elementen logisch te groeperen, zodat een scherm vanzelf begrijpelijker wordt.">
+              <span>Gestalt principes</span>
+            </button>
+            <button class="tool-chip" type="button" aria-pressed="false"
+              data-description="Responsive design laat een interface prettig werken op verschillende schermformaten en invoermethodes.">
+              <span>Responsive design</span>
+            </button>
+            <button class="tool-chip" type="button" aria-pressed="false"
+              data-description="Feedback vertelt wat er net gebeurde; feedforward maakt duidelijk wat er gaat gebeuren bij een actie.">
+              <span>Feedback en feedforward</span>
+            </button>
+            <button class="tool-chip" type="button" aria-pressed="false"
+              data-description="Interaction design richt zich op gedrag: klikken, kiezen, bewegen, wachten, herstellen en afronden.">
+              <span>Interaction Design</span>
+            </button>
+            <p class="tool-description" aria-live="polite">
+              Figma gebruik ik om schermen, prototypes en ontwerpkeuzes snel samen te brengen.
+            </p>
+          </div>
+        </article>
+
+        <article
+          class="window"
+          data-window-id="process"
+          style="left: 820px; top: 390px; width: 460px"
+        >
+          <header class="titlebar">
+            <span>Proces</span>
+            <button type="button" class="close-button" aria-label="Venster sluiten">x</button>
+          </header>
+          <div class="window-body">
+            <ol class="steps">
+              <li>Breng het probleem en de gebruikers helder in kaart.</li>
+              <li>Van idee naar workflow.</li>
+              <li>Lever een mooi prototype op.</li>
+            </ol>
+          </div>
+        </article>
+
+        <article
+          class="window"
+          data-window-id="mail"
+          style="left: 820px; top: 60px; width: 420px"
+        >
+          <header class="titlebar">
+            <span>E-mail.url</span>
+            <button type="button" class="close-button" aria-label="Venster sluiten">x</button>
+          </header>
+          <div class="window-body">
+            <a class="big-link" href="mailto:Jamievos100@gmail.com">Jamievos100@gmail.com</a>
+          </div>
+        </article>
+
+        <article
+          class="window"
+          data-window-id="links"
+          style="left: 820px; top: 390px; width: 440px"
+        >
+          <header class="titlebar">
+            <span>Links</span>
+            <button type="button" class="close-button" aria-label="Venster sluiten">x</button>
+          </header>
+          <div class="window-body link-grid">
+            <a href="https://github.com/JamieVos991" aria-label="GitHub profiel">GitHub</a>
+            <a href="https://www.linkedin.com/in/jamie-vos-0a0b4a18a/" aria-label="LinkedIn profiel">LinkedIn</a>
+          </div>
+        </article>
+      </div>
+
+      <footer class="taskbar">
+        <button class="start-button" type="button">Start</button>
+        <div class="taskbar-status"></div>
+        <time id="clock" datetime="">00:00</time>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
