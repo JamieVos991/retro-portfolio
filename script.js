@@ -77,7 +77,7 @@ function endDrag(event) {
   activeDrag = null;
 }
 
-document.querySelectorAll(".desktop-icon").forEach((icon) => {
+document.querySelectorAll(".btn-desktop").forEach((icon) => {
   icon.addEventListener("click", () => {
     openWindow(icon.dataset.window);
   });

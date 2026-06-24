@@ -6,63 +6,62 @@
     <title>Jamie.exe Portfolio</title>
     <link rel="stylesheet" href="styleguide.css" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="iconen.css" />
   </head>
   <body>
-    <main class="shell" aria-label="Retro portfolio met versleepbare desktops">
-      <section class="crt" aria-hidden="true"></section>
-
-      <nav class="icon-shelf" aria-label="Bureaublad iconen">
-        <button class="desktop-icon" type="button" data-window="about">
-          <span class="icon-art computer"></span>
+    <main aria-label="Retro portfolio">
+      <nav aria-label="Bureaublad iconen">
+        <button class="btn-desktop" data-window="about">
+          <span class="computer"></span>
           <span>Over.txt</span>
         </button>
-        <button class="desktop-icon" type="button" data-window="projects">
-          <span class="icon-art folder"></span>
+        <button class="btn-desktop" data-window="projects">
+          <span class="folder"></span>
           <span>Projecten</span>
         </button>
-        <button class="desktop-icon" type="button" data-window="resume">
-          <span class="icon-art paper"></span>
+        <button class="btn-desktop" data-window="resume">
+          <span class="paper"></span>
           <span>CV.doc</span>
         </button>
-        <button class="desktop-icon" type="button" data-window="photo">
-          <span class="icon-art photo"></span>
+        <button class="btn-desktop" data-window="photo">
+          <span class="photo"></span>
           <span>Foto.avif</span>
         </button>
-        <button class="desktop-icon" type="button" data-window="skills-overview">
-          <span class="icon-art badge"></span>
+        <button class="btn-desktop" data-window="skills-overview">
+          <span class="badge"></span>
           <span>Skills.txt</span>
         </button>
-        <button class="desktop-icon" type="button" data-window="frontend">
-          <span class="icon-art code"></span>
+        <button class="btn-desktop" data-window="frontend">
+          <span class="code"></span>
           <span>Front-end.exe</span>
         </button>
-        <button class="desktop-icon" type="button" data-window="tools">
-          <span class="icon-art paint"></span>
+        <button class="btn-desktop" data-window="tools">
+          <span class="paint"></span>
           <span>Gereedschap.exe</span>
         </button>
-        <button class="desktop-icon" type="button" data-window="process">
-          <span class="icon-art disk"></span>
+        <button class="btn-desktop" data-window="process">
+          <span class="disk"></span>
           <span>Proces</span>
         </button>
-        <button class="desktop-icon" type="button" data-window="mail">
-          <span class="icon-art envelope"></span>
+        <button class="btn-desktop" data-window="mail">
+          <span class="envelope"></span>
           <span>E-mail.url</span>
         </button>
-        <button class="desktop-icon" type="button" data-window="links">
-          <span class="icon-art globe"></span>
+        <button class="btn-desktop" data-window="links">
+          <span class="globe"></span>
           <span>Links</span>
         </button>
       </nav>
 
-      <div class="desktop">
+      <section>
         <article
           class="window open"
           data-window-id="welcome"
-          style="left: 310px; top: 60px; width: 520px"
+          style="left: 310px; top: 90px; width: 520px"
         >
           <header class="titlebar">
             <span>Welkom - Jamie.exe</span>
-            <button type="button" class="close-button" aria-label="Venster sluiten">x</button>
+            <button class="close-button" aria-label="Venster sluiten">x</button>
           </header>
           <section class="window-body welcome-body">
             <p class="status-line">C:\PORTFOLIO\WELKOM.EXE</p>
@@ -86,7 +85,13 @@
         >
           <header class="titlebar">
             <span>Ontwerp Lab</span>
-            <button type="button" class="close-button" aria-label="Venster sluiten">x</button>
+            <button
+              type="button"
+              class="close-button"
+              aria-label="Venster sluiten"
+            >
+              x
+            </button>
           </header>
           <div class="window-body lab-body">
             <h1>Ruwe ideeen bruikbaar maken</h1>
@@ -105,7 +110,13 @@
         >
           <header class="titlebar">
             <span>Inbelverbinding</span>
-            <button type="button" class="close-button" aria-label="Venster sluiten">x</button>
+            <button
+              type="button"
+              class="close-button"
+              aria-label="Venster sluiten"
+            >
+              x
+            </button>
           </header>
           <div class="window-body dialup-body">
             <div class="modem-lights" aria-hidden="true">
@@ -123,7 +134,13 @@
         >
           <header class="titlebar">
             <span>Over.txt</span>
-            <button type="button" class="close-button" aria-label="Venster sluiten">x</button>
+            <button
+              type="button"
+              class="close-button"
+              aria-label="Venster sluiten"
+            >
+              x
+            </button>
           </header>
           <section class="window-body">
             <p>
@@ -145,10 +162,20 @@
         >
           <header class="titlebar">
             <span>Foto.avif</span>
-            <button type="button" class="close-button" aria-label="Venster sluiten">x</button>
+            <button
+              type="button"
+              class="close-button"
+              aria-label="Venster sluiten"
+            >
+              x
+            </button>
           </header>
           <figure class="window-body photo-body">
-            <img class="photo-preview" src="fotos/IMG_0003.avif" alt="Foto van Jamie op een terras" />
+            <img
+              class="photo-preview"
+              src="fotos/IMG_0003.avif"
+              alt="Foto van Jamie op een terras"
+            />
           </figure>
         </article>
 
@@ -159,7 +186,13 @@
         >
           <header class="titlebar">
             <span>Projecten</span>
-            <button type="button" class="close-button" aria-label="Venster sluiten">x</button>
+            <button
+              type="button"
+              class="close-button"
+              aria-label="Venster sluiten"
+            >
+              x
+            </button>
           </header>
           <section class="window-body">
             <section class="project-list" aria-label="Projecten">
@@ -195,14 +228,31 @@
         >
           <header class="titlebar">
             <span>CV.doc</span>
-            <button type="button" class="close-button" aria-label="Venster sluiten">x</button>
+            <button
+              type="button"
+              class="close-button"
+              aria-label="Venster sluiten"
+            >
+              x
+            </button>
           </header>
           <section class="window-body">
             <ul class="resume-list">
-              <li><strong>Opleiding:</strong> Mediacollege Amsterdam - Software Development.</li>
-              <li><strong>Opleiding:</strong> HvA - Front-end Development &amp; Design.</li>
-              <li><strong>Minor:</strong> Communication &amp; Multimedia Design.</li>
-              <li><strong>Ervaring:</strong> twee stages gelopen bij Minty Media Haarlem en CYSO Alkmaar.</li>
+              <li>
+                <strong>Opleiding:</strong> Mediacollege Amsterdam - Software
+                Development.
+              </li>
+              <li>
+                <strong>Opleiding:</strong> HvA - Front-end Development &amp;
+                Design.
+              </li>
+              <li>
+                <strong>Minor:</strong> Communication &amp; Multimedia Design.
+              </li>
+              <li>
+                <strong>Ervaring:</strong> twee stages gelopen bij Minty Media
+                Haarlem en CYSO Alkmaar.
+              </li>
             </ul>
           </section>
         </article>
@@ -214,10 +264,19 @@
         >
           <header class="titlebar">
             <span>Skills.txt</span>
-            <button type="button" class="close-button" aria-label="Venster sluiten">x</button>
+            <button
+              type="button"
+              class="close-button"
+              aria-label="Venster sluiten"
+            >
+              x
+            </button>
           </header>
           <section class="window-body skills-body">
-            <section class="skills-snap" aria-label="Scroll door de belangrijkste skills">
+            <section
+              class="skills-snap"
+              aria-label="Scroll door de belangrijkste skills"
+            >
               <article class="skill-panel">
                 <span class="skill-number">01</span>
                 <h2>Ontwerp</h2>
@@ -226,17 +285,24 @@
               <article class="skill-panel">
                 <span class="skill-number">02</span>
                 <h2>Toegankelijkheid</h2>
-                <p>Interfaces ontwerpen die duidelijk, bruikbaar en inclusief zijn.</p>
+                <p>
+                  Interfaces ontwerpen die duidelijk, bruikbaar en inclusief
+                  zijn.
+                </p>
               </article>
               <article class="skill-panel">
                 <span class="skill-number">03</span>
                 <h2>Onderzoek</h2>
-                <p>Problemen scherp krijgen, aannames testen en keuzes uitleggen.</p>
+                <p>
+                  Problemen scherp krijgen, aannames testen en keuzes uitleggen.
+                </p>
               </article>
               <article class="skill-panel">
                 <span class="skill-number">04</span>
                 <h2>Samenwerking</h2>
-                <p>Rustige overdracht, documentatie en bruggen naar development.</p>
+                <p>
+                  Rustige overdracht, documentatie en bruggen naar development.
+                </p>
               </article>
             </section>
           </section>
@@ -249,7 +315,13 @@
         >
           <header class="titlebar">
             <span>Front-end.exe</span>
-            <button type="button" class="close-button" aria-label="Venster sluiten">x</button>
+            <button
+              type="button"
+              class="close-button"
+              aria-label="Venster sluiten"
+            >
+              x
+            </button>
           </header>
           <section class="window-body">
             <ul class="resume-list">
@@ -268,63 +340,122 @@
         >
           <header class="titlebar">
             <span>Gereedschap.exe</span>
-            <button type="button" class="close-button" aria-label="Venster sluiten">x</button>
+            <button
+              type="button"
+              class="close-button"
+              aria-label="Venster sluiten"
+            >
+              x
+            </button>
           </header>
           <div class="window-body chip-panel">
-            <button class="tool-chip active" type="button" aria-pressed="true"
-              data-description="Figma gebruik ik om schermen, prototypes en ontwerpkeuzes snel samen te brengen.">
+            <button
+              class="tool-chip active"
+              type="button"
+              aria-pressed="true"
+              data-description="Figma gebruik ik om schermen, prototypes en ontwerpkeuzes snel samen te brengen."
+            >
               <span>Figma</span>
             </button>
-            <button class="tool-chip" type="button" aria-pressed="false"
-              data-description="Een sitemap maakt zichtbaar welke pagina's of onderdelen er zijn en hoe ze met elkaar verbonden zijn.">
+            <button
+              class="tool-chip"
+              type="button"
+              aria-pressed="false"
+              data-description="Een sitemap maakt zichtbaar welke pagina's of onderdelen er zijn en hoe ze met elkaar verbonden zijn."
+            >
               <span>Sitemap</span>
             </button>
-            <button class="tool-chip" type="button" aria-pressed="false"
-              data-description="UX richt zich op de gebruikerservaring; UI op de visuele uitvoering daarvan.">
+            <button
+              class="tool-chip"
+              type="button"
+              aria-pressed="false"
+              data-description="UX richt zich op de gebruikerservaring; UI op de visuele uitvoering daarvan."
+            >
               <span>UX en UI</span>
             </button>
-            <button class="tool-chip" type="button" aria-pressed="false"
-              data-description="Wireframes en wireflows tonen de structuur en de route door een interface voordat alles visueel wordt uitgewerkt.">
+            <button
+              class="tool-chip"
+              type="button"
+              aria-pressed="false"
+              data-description="Wireframes en wireflows tonen de structuur en de route door een interface voordat alles visueel wordt uitgewerkt."
+            >
               <span>Wireframe en wireflow</span>
             </button>
-            <button class="tool-chip" type="button" aria-pressed="false"
-              data-description="Visuele hiërarchie helpt bepalen wat iemand eerst ziet, wat daarna komt en welke acties het meest belangrijk zijn.">
+            <button
+              class="tool-chip"
+              type="button"
+              aria-pressed="false"
+              data-description="Visuele hiërarchie helpt bepalen wat iemand eerst ziet, wat daarna komt en welke acties het meest belangrijk zijn."
+            >
               <span>Visuele Hiërarchie</span>
             </button>
-            <button class="tool-chip" type="button" aria-pressed="false"
-              data-description="Prototyping maakt een idee klikbaar, zodat interacties vroeg getest en aangescherpt kunnen worden.">
+            <button
+              class="tool-chip"
+              type="button"
+              aria-pressed="false"
+              data-description="Prototyping maakt een idee klikbaar, zodat interacties vroeg getest en aangescherpt kunnen worden."
+            >
               <span>Prototyping</span>
             </button>
-            <button class="tool-chip" type="button" aria-pressed="false"
-              data-description="Breakdown schetsen knippen een groot probleem op in kleinere schermen, states en beslissingen.">
+            <button
+              class="tool-chip"
+              type="button"
+              aria-pressed="false"
+              data-description="Breakdown schetsen knippen een groot probleem op in kleinere schermen, states en beslissingen."
+            >
               <span>Breakdown schetsen</span>
             </button>
-            <button class="tool-chip" type="button" aria-pressed="false"
-              data-description="Divergeren opent meerdere richtingen; convergeren kiest daarna bewust wat het best past.">
+            <button
+              class="tool-chip"
+              type="button"
+              aria-pressed="false"
+              data-description="Divergeren opent meerdere richtingen; convergeren kiest daarna bewust wat het best past."
+            >
               <span>Divergeren en Convergeren</span>
             </button>
-            <button class="tool-chip" type="button" aria-pressed="false"
-              data-description="Typografie en leesbaarheid zorgen dat tekst rustig scant, goed contrasteert en bij de inhoud past.">
+            <button
+              class="tool-chip"
+              type="button"
+              aria-pressed="false"
+              data-description="Typografie en leesbaarheid zorgen dat tekst rustig scant, goed contrasteert en bij de inhoud past."
+            >
               <span>Typografie en leesbaarheid</span>
             </button>
-            <button class="tool-chip" type="button" aria-pressed="false"
-              data-description="Gestalt principes helpen om elementen logisch te groeperen, zodat een scherm vanzelf begrijpelijker wordt.">
+            <button
+              class="tool-chip"
+              type="button"
+              aria-pressed="false"
+              data-description="Gestalt principes helpen om elementen logisch te groeperen, zodat een scherm vanzelf begrijpelijker wordt."
+            >
               <span>Gestalt principes</span>
             </button>
-            <button class="tool-chip" type="button" aria-pressed="false"
-              data-description="Responsive design laat een interface prettig werken op verschillende schermformaten en invoermethodes.">
+            <button
+              class="tool-chip"
+              type="button"
+              aria-pressed="false"
+              data-description="Responsive design laat een interface prettig werken op verschillende schermformaten en invoermethodes."
+            >
               <span>Responsive design</span>
             </button>
-            <button class="tool-chip" type="button" aria-pressed="false"
-              data-description="Feedback vertelt wat er net gebeurde; feedforward maakt duidelijk wat er gaat gebeuren bij een actie.">
+            <button
+              class="tool-chip"
+              type="button"
+              aria-pressed="false"
+              data-description="Feedback vertelt wat er net gebeurde; feedforward maakt duidelijk wat er gaat gebeuren bij een actie."
+            >
               <span>Feedback en feedforward</span>
             </button>
-            <button class="tool-chip" type="button" aria-pressed="false"
-              data-description="Interaction design richt zich op gedrag: klikken, kiezen, bewegen, wachten, herstellen en afronden.">
+            <button
+              class="tool-chip"
+              type="button"
+              aria-pressed="false"
+              data-description="Interaction design richt zich op gedrag: klikken, kiezen, bewegen, wachten, herstellen en afronden."
+            >
               <span>Interaction Design</span>
             </button>
             <p class="tool-description" aria-live="polite">
-              Figma gebruik ik om schermen, prototypes en ontwerpkeuzes snel samen te brengen.
+              Figma gebruik ik om schermen, prototypes en ontwerpkeuzes snel
+              samen te brengen.
             </p>
           </div>
         </article>
@@ -336,7 +467,13 @@
         >
           <header class="titlebar">
             <span>Proces</span>
-            <button type="button" class="close-button" aria-label="Venster sluiten">x</button>
+            <button
+              type="button"
+              class="close-button"
+              aria-label="Venster sluiten"
+            >
+              x
+            </button>
           </header>
           <div class="window-body">
             <ol class="steps">
@@ -354,10 +491,18 @@
         >
           <header class="titlebar">
             <span>E-mail.url</span>
-            <button type="button" class="close-button" aria-label="Venster sluiten">x</button>
+            <button
+              type="button"
+              class="close-button"
+              aria-label="Venster sluiten"
+            >
+              x
+            </button>
           </header>
           <div class="window-body">
-            <a class="big-link" href="mailto:Jamievos100@gmail.com">Jamievos100@gmail.com</a>
+            <a class="big-link" href="mailto:Jamievos100@gmail.com"
+              >Jamievos100@gmail.com</a
+            >
           </div>
         </article>
 
@@ -368,18 +513,30 @@
         >
           <header class="titlebar">
             <span>Links</span>
-            <button type="button" class="close-button" aria-label="Venster sluiten">x</button>
+            <button
+              type="button"
+              class="close-button"
+              aria-label="Venster sluiten"
+            >
+              x
+            </button>
           </header>
           <div class="window-body link-grid">
-            <a href="https://github.com/JamieVos991" aria-label="GitHub profiel">GitHub</a>
-            <a href="https://www.linkedin.com/in/jamie-vos-0a0b4a18a/" aria-label="LinkedIn profiel">LinkedIn</a>
+            <a href="https://github.com/JamieVos991" aria-label="GitHub profiel"
+              >GitHub</a
+            >
+            <a
+              href="https://www.linkedin.com/in/jamie-vos-0a0b4a18a/"
+              aria-label="LinkedIn profiel"
+              >LinkedIn</a
+            >
           </div>
         </article>
-      </div>
+      </section>
 
-      <footer class="taskbar">
-        <button class="start-button" type="button">Start</button>
-        <div class="taskbar-status"></div>
+      <footer>
+        <button>Start</button>
+        <div></div>
         <time id="clock" datetime="">00:00</time>
       </footer>
     </main>
